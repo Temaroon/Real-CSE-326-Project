@@ -123,11 +123,12 @@ a#logo:hover {
 .achievements {
   margin-top: 15px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .articles {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: flex;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -136,10 +137,23 @@ a#logo:hover {
 }
 
 .articles-container {
+  display: flex;
   background-color: #ffffff;
   border-radius: 12px;
   padding: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
 }
 
 /* .article { This was for img
