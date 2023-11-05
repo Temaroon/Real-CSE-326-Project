@@ -1,0 +1,14 @@
+LOGO
+Course Name & Code
+Submitted to - Rajan Kakkar
+Submitted by - Aditya (Reg)
+Table Of Contents
+Introduction of HTML, CSS, Javascript 1-2 pages (What is HTML, Why html, advantages, disadvantages of html, version of html, css, js)
+Technologies used (HTML, Javascript, CSS)
+Modules
+Output (Website Screenshot)
+Refrences-
+w3schools
+geeksforgeeks
+freecodecamp
+youtube

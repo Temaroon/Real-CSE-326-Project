@@ -4,22 +4,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Marketing Website</title>
+  <title>MailChimp</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 </head>
 
 <body>
   <!-- header starts -->
-  <header>
+  <header id="home">
     <div class="header">
       <!-- logo starts -->
-      <a href="#default" id="logo">Company Logo</a>
+      <a href="#default" id="logo">MailChimp</a>
       <!-- logo ends -->
       <!-- navbar satrts -->
       <nav>
-        <div id="nav">
+        <div class="nav">
           <a class="active" href="#home">Home</a>
-          <a href="#career">Careers</a>
+          <a href="#achievements">Careers</a>
           <a href="#about">About Us</a>
           <a href="#contact">Contact</a>
         </div>
@@ -39,27 +40,63 @@
   <!-- main starts -->
   <main>
     <!-- achievements section starts -->
-    <section>
-      <div class="achievements">
-        <h2>Achievements</h2>
+    <section id="achievements">
+      <div class="h1">
+        <h1>Achievements</h1>
+      </div>
+      <div class="achievements-container">
+        <div class="achievement-container">
+          <div class="achievement">
+            <img src="img/support1_b_w.avif" alt="Support">
+            <h3>Award-winning support</h3>
+            <p>Get the help you need, whenever you need it with our 24/7 support.</p>
+          </div>
+        </div>
+        <div class="achievement-container">
+          <div class="achievement">
+            <img src="img/thumbsup_b_w.avif" alt="Thumbs Up">
+            <h3>250+ app integrations</h3>
+            <p>You can connect your tools to Mailchimp and unlock even more features.</p>
+          </div>
+        </div>
+        <div class="achievement-container">
+          <div class="achievement">
+            <img src="img/trustedpros_b_w.avif" alt="Trusted">
+            <h3>A directory of trusted pros</h3>
+            <p>Take your marketing to the next level when you work with a Mailchimp partner.</p>
+          </div>
+        </div>
       </div>
     </section>
     <!-- achievements section ends -->
     <!-- articles section starts -->
-    <section>
+    <section id="about">
       <div class="articles">
+        <div class="h2">
+          <h2>Turn Emails into Revenue</h2>
+        </div>
         <div class="articles-container">
           <div class="article">
-            <h3>Article1</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>Convert with email automations</h3>
+            <p>
+              Boost orders and customer lifetime value by dynamically personalizing emails based on browsing and
+              purchase data.
+            </p>
+            <a href="#"><button class="button">Explore Marketing Automation</button></a>
           </div>
           <div class="article">
-            <h3>Article2</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>Create faster with generative AI</h3>
+            <p>
+              Effortlessly create on-brand content with generative AI tools and choose from expertly designed templates.
+            </p>
+            <a href="#"><button class="button">Explore AI Tools</button></a>
           </div>
           <div class="article">
-            <h3>Article3</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>Refine with segmentation</h3>
+            <p>
+              Target customers with advanced logic like spend amounts, buying behavior, and predicted attributes.
+            </p>
+            <a href="#"><button class="button">Explore Audience Management</button></a>
           </div>
         </div>
       </div>
@@ -68,11 +105,11 @@
   </main>
   <!-- main ends -->
   <!-- footer starts -->
-  <footer>
+  <footer id="contact">
     <div class="footer">
       <div class="f-item address">
         <h3>Location Address</h3>
-        <p>123, GT Road, Phagwara, Punjab, IN</p>
+        <p>123, GT Road, Jalandhar, Punjab, IN</p>
       </div>
       <div class="f-item contact">
         <h3>Contact Details</h3>
@@ -80,8 +117,59 @@
         <p>+01 2345 678 901</p>
       </div>
     </div>
+    <div class="footer-links">
+      <div class="footer-links-wrapper">
+
+        <div class="faq">
+          <h3>Products</h3>
+          <a href="#">Why Mailchimp?</a>
+          <a href="#">Product Updates</a>
+          <a href="#">Email Marketing</a>
+          <a href="#">Websites</a>
+          <a href="#">Transactional Email</a>
+          <a href="#">How We Compare</a>
+          <a href="#">Security</a>
+          <a href="#">Status</a>
+          <a href="#">Mobile App</a>
+        </div>
+        <div class="faq">
+          <h3>Resources</h3>
+          <a href="#">Marketing Library</a>
+          <a href="#">Free Marketing Tools</a>
+          <a href="#">Marketing Glossary</a>
+          <a href="#">Integrations</a>
+        </div>
+        <div class="faq">
+          <h3>Community</h3>
+          <a href="#">Agencies & Freelancers</a>
+          <a href="#">Developer</a>
+          <a href="#">Events</a>
+        </div>
+        <div class="faq">
+          <h3>Company</h3>
+          <a href="#">Our Story</a>
+          <a href="#">Newsroom</a>
+          <a href="#">Give Where You Live</a>
+          <a href="#">Careers</a>
+          <a href="#">Accessibility</a>
+        </div>
+        <div class="faq">
+          <h3>Help</h3>
+          <a href="#">Contact Us</a>
+          <a href="#">Hire an Expert</a>
+          <a href="#">Help Center</a>
+          <a href="#">Talk to Sales</a>
+        </div>
+        <div class="mcp">
+          <a href="#"><img src="img/MCP.svg" alt="MailChimp Presents"></a>
+          <p>Films, podcasts, and original series that celebrate the entrepreneurial spirit.</p>
+          <button>Check it out</button>
+        </div>
+      </div>
+    </div>
   </footer>
   <!-- footer ends -->
+
   <!-- script tag starts -->
   <script src="script.js"></script>
   <!-- script tag ends -->
