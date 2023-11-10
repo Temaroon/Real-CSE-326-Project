@@ -15,6 +15,7 @@
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 5px;
+  z-index: 100;
 }
 
 .nav {
@@ -25,7 +26,7 @@
   background-color: #4a4a4a;
   float: right;
   border-radius: 6px;
-  height: 70%;
+  height: 60%;
   position: absolute;
   right: 500px;
   margin-right: 35px;
