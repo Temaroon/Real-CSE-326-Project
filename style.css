@@ -25,10 +25,14 @@
   background-color: #4a4a4a;
   float: right;
   border-radius: 6px;
-  width: 28%;
+  height: 70%;
   position: absolute;
   right: 500px;
   margin-right: 35px;
+}
+
+.nav a {
+  width: 115%;
 }
 
 #search-bar {
@@ -113,6 +117,21 @@ a#logo:hover {
   background-color: #9f9f9f84;
 }
 
+.header .logo {
+  display: flex;
+}
+
+.header .logo #logo {
+  max-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.header .logo a>img {
+  width: 75%;
+  height: auto;
+  overflow: hidden;
+}
+
 .nav a:hover {
   background-color: #e0e0e0ed;
   transform: scale(90%);
@@ -165,19 +184,37 @@ a#logo:hover {
   margin: 0.6rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.achievement:hover {
+  transform: scale(105%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.406);
+  height: 100%;
+  width: 94%;
+}
+
+.achievement > p {
+  transition: all 0.3s ease;
+}
+
+.achievement > p:hover {
+  transform: scale(105%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.406);
 }
 
 .achievements-container .achievement-container .achievement img {
   width: 25%;
   height: auto;
   object-fit: cover;
+  margin-top: 10px;
 }
 
 .achievement h3 {
   font-size: 20px;
   font-weight: bold;
   color: #333;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   margin: 1rem;
 }
 
@@ -284,13 +321,24 @@ a#logo:hover {
   padding: 2rem;
 }
 
-.faq > a {
+.faq>a {
   text-decoration: none;
   color: #333;
   transition: all 0.2s ease;
 }
 
-.faq > a:hover {
+.faq>a:hover {
+  color: #04aa6d;
+  text-decoration: underline;
+}
+
+.contact .a {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+.contact .a:hover {
   color: #04aa6d;
   text-decoration: underline;
 }
