@@ -209,6 +209,7 @@ a#logo:hover {
   height: auto;
   object-fit: cover;
   margin-top: 10px;
+  z-index: 50;
 }
 
 .achievement h3 {
