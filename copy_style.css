@@ -11,6 +11,7 @@
   text-align: center;
   flex-direction: column;
   padding: 1.5rem;
+  font-size: 1.35rem;
 }
 
 .wrapper h2, p {
