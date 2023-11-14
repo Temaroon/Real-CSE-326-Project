@@ -388,6 +388,19 @@ a#logo:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.406);
 }
 
+.copy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.copy p {
+  margin: 0.5rem;
+  color: #333333ce;
+}
+
 @media screen and (max-width: 768px) {
   .header {
     padding: 20px 0;
