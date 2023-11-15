@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f1f1f1;
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -14,7 +18,8 @@
   font-size: 1.35rem;
 }
 
-.wrapper h2, p {
+.wrapper h2,
+p {
   margin: 0.5rem;
 }
 
