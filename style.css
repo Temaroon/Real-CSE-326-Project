@@ -7,6 +7,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
+::selection {
+  background-color: #04aa6d;
+  color: white;
+}
+
 .header {
   display: flex;
   position: fixed;
@@ -66,7 +71,7 @@
 }
 
 .search::placeholder {
-  color: #9f9f9fce;
+  color: #9f9f9feb;
 }
 
 .search:hover {
@@ -124,21 +129,6 @@
 
 a#logo:hover {
   background-color: #9f9f9f84;
-}
-
-.header .logo {
-  display: flex;
-}
-
-.header .logo #logo {
-  max-height: 2rem;
-  margin-bottom: 2rem;
-}
-
-.header .logo a>img {
-  width: 75%;
-  height: auto;
-  overflow: hidden;
 }
 
 .nav a:hover {

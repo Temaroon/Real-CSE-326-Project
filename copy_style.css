@@ -8,6 +8,11 @@ body {
   background-color: #f1f1f1;
 }
 
+::selection {
+  background-color: #04aa6d;
+  color: white;
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -18,7 +23,7 @@ body {
   font-size: 1.35rem;
 }
 
-.wrapper h2,
+.wrapper,
 p {
   margin: 0.5rem;
 }
@@ -26,4 +31,16 @@ p {
 .wrapper a {
   text-decoration: underline;
   font-weight: 600;
+}
+
+#logo {
+  /* font-size: 26px; */
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+#logo:hover {
+  background-color: #9f9f9f84;
+  cursor: default;
 }
