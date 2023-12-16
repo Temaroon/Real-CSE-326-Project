@@ -12,6 +12,28 @@
   color: white;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #04aa6d;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: #4a4a4a;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
 .header {
   display: flex;
   position: fixed;
@@ -205,6 +227,10 @@ a#logo:hover {
   object-fit: cover;
   margin-top: 10px;
   z-index: 50;
+}
+
+.thumb {
+  width: 50%;
 }
 
 .achievement h3 {
